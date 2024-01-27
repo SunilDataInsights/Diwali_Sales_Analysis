@@ -1,15 +1,18 @@
-Objective: 
+Objective:
 The objective of this project is to perform exploratory data analysis (EDA) on Diwali Sales Data to gain insights into the sales patterns, customer demographics, and popular product categories.
 The analysis aims to provide a comprehensive understanding of the dataset and extract meaningful information that can be used for business decision-making.
+
 
 Issues Found in Data:
 1.	There were unrelated/blank columns ('Status', 'unnamed1') that were dropped.
 2.	Null values were present in the dataset, and they were handled by dropping the corresponding rows.
 3.	The data type of the 'Amount' column was converted to integer for further analysis.
 
+
 Tools Used:
-•	Python programming language
-•	Libraries: NumPy, Pandas, Matplotlib, Seaborn
+1. Python programming language
+2. Libraries: NumPy, Pandas, Matplotlib, Seaborn
+
 
 Data Cleaning Process:
 1.	Imported necessary libraries for data analysis and visualization.
@@ -19,6 +22,7 @@ Data Cleaning Process:
 5.	Checked for and handled null values.
 6.	Converted the 'Amount' column to the integer data type.
 7.	Performed descriptive statistics to understand the basic characteristics of the data.
+
 
 Conclusion:
 1.	Gender Analysis:
